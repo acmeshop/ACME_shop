@@ -45,7 +45,11 @@ Acme shop is distributed in zip format. Before setting your environment, please 
 
 Set it up on your own computer
 Acme Shop can be used simply with a web browser, being built entirely with HTML, CSS and JS language. To start the experimental task in a browser just open the file named ACME_shop_intro_page.html from Chrome, Firefox Safari or any other web browser and starting from there, just select the experimental condition of interest.
+
+
 ![image1](https://raw.githubusercontent.com/acmeshop/ACME_shop/gh-pages/docs/1.jpg)
+
+
 By default, an internet connection will still be necessary as not all Javascript libraries are included in the ZIP file.
 
 ## How to randomize conditions
