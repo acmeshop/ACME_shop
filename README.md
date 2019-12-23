@@ -40,7 +40,7 @@ Acme shop is distributed in zip format. Before setting your environment, please 
 
 Set it up on your own computer
 Acme Shop can be used simply with a web browser, being built entirely with HTML, CSS and JS language. To start the experimental task in a browser just open the file named ACME_shop_intro_page.html from Chrome, Firefox Safari or any other web browser and starting from there, just select the experimental condition of interest.
-![image1](https://raw.githubusercontent.com/acmeshop/ACME_shop/master/docs/1.jpg)
+![image1](https://raw.githubusercontent.com/acmeshop/ACME_shop/gh-pages/docs/1.jpg)
 By default, an internet connection will still be necessary as not all Javascript libraries are included in the ZIP file.
 
 ## How to randomize conditions
@@ -53,21 +53,21 @@ MAMP is a free, local server environment that can be installed under macOS and W
 After installing MAMP on your computer, just copy the entire ACME shop folder in the HTDOCS folder of MAMP
 
 
-_On Windows: C:\MAMP\htdocs_
+_On Windows: C:/MAMP/htdocs_
 
-![image2](https://raw.githubusercontent.com/acmeshop/ACME_shop/master/docs/2.png)
+![image2](https://raw.githubusercontent.com/acmeshop/ACME_shop/gh-pages/docs/2.png)
 
 
 
-_On Mac: Applications\MAMP\htdocs_
+_On Mac: Applications/MAMP/htdocs_
 
-![image3](https://raw.githubusercontent.com/acmeshop/ACME_shop/master/docs/3.png)
+![image3](https://raw.githubusercontent.com/acmeshop/ACME_shop/gh-pages/docs/3.png)
 
 
 
 ### Launch MAMP web server
 
-![image4](https://raw.githubusercontent.com/acmeshop/ACME_shop/master/docs/4.png)
+![image4](https://raw.githubusercontent.com/acmeshop/ACME_shop/gh-pages/docs/4.png)
 
 Client-Server programs, such as MAMP, when addressed via the network or via localhost, need to be assigned to a certain network port. This way, multiple server programs may run on one server machine. Every service has a default port: The MAMP web server typically uses port 80, the MySQL database server utilises port 3306. By default, MAMP is set to work on port 80. If you are running applications that are using port 80 (such as Skype) you may have some problems in running MAMP on your local computer. Luckily, MAMP allow you to change the default ports both on windows and on mac. For further instruction on how to change the default port on MAMP, please reade here
 On Windows -> [https://documentation.mamp.info/en/MAMP-PRO-Windows/Settings/Ports/](https://documentation.mamp.info/en/MAMP-PRO-Windows/Settings/Ports/)
@@ -94,14 +94,14 @@ For more customization you can download the source code of the paradigm. Downloa
 
 ### Updating the appointments of the ACME calendar
 
-![image5](https://raw.githubusercontent.com/acmeshop/ACME_shop/master/docs/5.png)
+![image5](https://raw.githubusercontent.com/acmeshop/ACME_shop/gh-pages/docs/5.png)
 
 When running the ACME shop task, participants in the non-objective condition will be asked to solve some tasks such as checking the list of appointments or creating new appointments by editing a calendar. Appointments should be customized according to the current date and time participants perform the test.
 
 To customize the calendar appointments, you should edit the file named “calendar.html” in the ACME shop folder “not_obj_cond” (ACME_shop/ not_obj_cond/calendar.html). 
 
 To do so, simply open the with a text editor or some specific HTML editor and change the defaultDate parameter (line 22 of the original code) with the date in which you are running the test.
-![image6](https://raw.githubusercontent.com/acmeshop/ACME_shop/master/docs/6.png)
+![image6](https://raw.githubusercontent.com/acmeshop/ACME_shop/gh-pages/docs/6.png)
 You should also update the appointments already present in the calendar by editing or adding new appointments in the same file.
 Each appointment is composed by a title, a start date and an end date, as follow:
 
@@ -111,7 +111,7 @@ Each appointment is composed by a title, a start date and an end date, as follow
 	end: '2016-03-1'
 		             }
 
-![image7](https://raw.githubusercontent.com/acmeshop/ACME_shop/master/docs/7.png)               
+![image7](https://raw.githubusercontent.com/acmeshop/ACME_shop/gh-pages/docs/7.png)               
 
 ### Change the currency
 
@@ -121,13 +121,13 @@ The Acme Shop task presents all monetary values in pounds. To change the value o
 At the end of the experimental task, the participant is usually redirected to a web survey. Any survey link can be specified. 
 
 To insert the link to your web survey it is necessary to edit the file named “end_task.html” that is present in each folder (obj_cond, not_obj_cond, baseline), by changing the “#” with the url to your survey (i.e., [https://qualtrics.unimib.it/mysurvey](https://qualtrics.unimib.it/mysurvey)) and change the string value “Put the link for your survey here” with something more catchy, as “please answer some questions”.
-![image8](https://raw.githubusercontent.com/acmeshop/ACME_shop/master/docs/8.png) 
+![image8](https://raw.githubusercontent.com/acmeshop/ACME_shop/gh-pages/docs/8.png) 
 
 ### Linking Qualtrics survey with custom parameters
 
 The script will extend the survey link by additional variables that can be read out by the survey, mainly to pass on the condition.
 If you are using Qualtrics, you can pass information into a survey and save it as Embedded Data by using a query string. Doing so requires appending information to the end of the survey URL. Once information is successfully passed into a survey, you can use it in your logic and display it to participants.
-![image9](https://raw.githubusercontent.com/acmeshop/ACME_shop/master/docs/9.png) 
+![image9](https://raw.githubusercontent.com/acmeshop/ACME_shop/gh-pages/docs/9.png) 
 
 You can use this EXP_CON information in your data to differentiate subjects into different experimental conditions.
 
