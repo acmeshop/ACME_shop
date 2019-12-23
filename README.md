@@ -26,6 +26,11 @@ The ACME shop paradigm does not register any responses or personal data of parti
 
 At the end of each condition, you have the possibility to link directly the paradigm to an online survey (see paragraph 7), which can contain sociodemographic questions, manipulation checks, dependent measures, and/or connection to subsequent tasks, depending on your research questions.
 
+## How to download
+To download the paradigm, simply click on the green button above named "Clone or Download" or simply click here [https://github.com/acmeshop/ACME_shop/archive/master.zip](https://github.com/acmeshop/ACME_shop/archive/master.zip)
+
+
+
 ## Files and folders structure
 Acme shop is distributed in zip format. Before setting your environment, please unzip it. Once the original zip file has been decompressed, the files and subfolders composing the web paradigm are organized as follows:
 - ACME_shop_intro_page html -> the file named “ACME_shop_intro_page.html” presents the direct links for running the three experimental conditions separately. It is usually used by the experimenter to choose a particular experimental condition.
