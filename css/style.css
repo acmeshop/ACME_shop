@@ -1,0 +1,164 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+body {
+    line-height: 1;
+    color: black;
+    background: white;
+}
+ol, ul {
+    list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+* {
+    margin:0;
+    padding:0;
+}
+@font-face {
+    font-family: 'LobsterTwoItalic';
+    src: url('LobsterTwo-Italic-webfont.eot');
+    src: url('LobsterTwo-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('LobsterTwo-Italic-webfont.woff') format('woff'),
+         url('LobsterTwo-Italic-webfont.ttf') format('truetype'),
+         url('LobsterTwo-Italic-webfont.svg#LobsterTwoItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LobsterTwoBoldItalic';
+    src: url('LobsterTwo-BoldItalic-webfont.eot');
+    src: url('LobsterTwo-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('LobsterTwo-BoldItalic-webfont.woff') format('woff'),
+         url('LobsterTwo-BoldItalic-webfont.ttf') format('truetype'),
+         url('LobsterTwo-BoldItalic-webfont.svg#LobsterTwoBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'VegurRegular';
+    src: url('vegur-r_0.601-webfont.eot');
+    src: url('vegur-r_0.601-webfont.eot?iefix') format('eot'),
+         url('vegur-r_0.601-webfont.woff') format('woff'),
+         url('vegur-r_0.601-webfont.ttf') format('truetype'),
+         url('vegur-r_0.601-webfont.svg#webfonthQL4pnsb') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'VegurRegular', arial, sans-serif;
+    color: #2F1C3A;
+    background-color:#999;
+}
+
+#formContainer {
+    background-color: #EFEFEF;
+    border: 1px solid #CCCCCC;
+    margin: 15px auto;
+    width: 800px;
+	overflow:auto;
+	padding: 20px;
+	
+}
+
+
+h1 {
+    color: #DB4648;
+    font-size: 11px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.font {
+	font-family: 'LobsterTwoItalic';
+	
+}
+
+h1 span {
+    font-family: 'LobsterTwoBoldItalic';
+    font-size: 46px;
+    color: #2F1C3A;
+}
+h2, h4 {
+    font-family: 'LobsterTwoItalic';
+    color: #DB4648;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+li, a{
+	text-decoration:none;
+	color: #DB4648;
+	display: block;
+	text-align: center;
+  
+	
+}
+
+
+
+.font_start p{
+	font-size: 14px;
+	
+	
+}
+
+
+strong{
+	font-weight: 800;	
+}
+
+
+.h2_center{
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	border-radius: 22px 22px 22px 22px;
+	-moz-border-radius: 22px 22px 22px 22px;
+	-webkit-border-radius: 22px 22px 22px 22px;
+	background-color: #CCC;
+		width: 220px;
+		height: 20px;
+		padding: 10px;
+}
+
+
+
