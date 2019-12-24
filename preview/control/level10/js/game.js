@@ -1,10 +1,10 @@
 //=============================================================================
 //
 // We need some ECMAScript 5 methods but we need to implement them ourselves
-// for older browsers (compatibility: http://kangax.github.com/es5-compat-table/)
+// for older browsers (compatibility: https://kangax.github.com/es5-compat-table/)
 //
 //  Function.bind:        https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function/bind
-//  Object.create:        http://javascript.crockford.com/prototypal.html
+//  Object.create:        https://javascript.crockford.com/prototypal.html
 //  Object.extend:        (defacto standard like jquery $.extend or prototype's Object.extend)
 //
 //  Object.construct:     our own wrapper around Object.create that ALSO calls
@@ -55,7 +55,7 @@ if (!Object.extend) {
 }
 
 /* NOT READY FOR PRIME TIME
-if (!window.requestAnimationFrame) {// http://paulirish.com/2011/requestanimationframe-for-smart-animating/
+if (!window.requestAnimationFrame) {// https://paulirish.com/2011/requestanimationframe-for-smart-animating/
   window.requestAnimationFrame = window.webkitRequestAnimationFrame || 
                                  window.mozRequestAnimationFrame    || 
                                  window.oRequestAnimationFrame      || 
@@ -246,7 +246,7 @@ Game = {
       Game.addEvent(document, 'DOMContentLoaded', fn);
   },
 
-  renderToCanvas: function(width, height, render, canvas) { // http://kaioa.com/node/103
+  renderToCanvas: function(width, height, render, canvas) { // https://kaioa.com/node/103
     canvas = canvas || document.createElement('canvas');
     canvas.width  = width;
     canvas.height = height;
